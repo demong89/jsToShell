@@ -5,7 +5,7 @@ await $`git status`
 await $`git add ./`
 console.log(chalk.blue('add success'))
 let msg = await question('Please input commit -msg:')
-console.log(chalk.red(msg))
+console.log(msg)
 
 await $`git commit -m 'feat: ${msg}'`
 await $`git push`

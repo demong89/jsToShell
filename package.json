@@ -1,11 +1,12 @@
 {
   "name": "jstoshell",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "version": "1.0.1",
+  "description": "js to shell git commit process",
+  "main": "index.mjs",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "gg": "zx ./index.mjs"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "demong",
+  "license": "ISC",
+  "repository": "https://github.com/demong89/jsToShell.git"
 }
