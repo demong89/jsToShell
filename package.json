@@ -1,6 +1,6 @@
 {
   "name": "jstoshell",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "js to shell git commit process",
   "main": "index.mjs",
   "scripts": {
